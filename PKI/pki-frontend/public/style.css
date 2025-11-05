@@ -1,0 +1,26 @@
+:root {
+  --background: #006c2f;
+  --text-background: rgb(227, 226, 212);
+  --outlines: #69006e;
+  --text: #89dee2;
+  --text-hover: #16c2d5;
+  --backs: #527c88;
+  --border-radius: 10px;
+}
+
+* {
+  color-scheme: dark;
+}
+
+body {
+  font-family: monospace;
+  overflow-y: scroll;
+  background-color: rgba(255, 192, 203, 0.409);
+}
+
+h1 {
+  width: fit-content;
+  margin: 10px auto;
+  text-transform: uppercase;
+  caret-color: transparent;
+}
